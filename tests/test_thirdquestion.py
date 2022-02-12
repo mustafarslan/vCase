@@ -2,7 +2,6 @@ import pytest
 from src.thirdquestion import ThirdQuestion
 
 
-@pytest.mark.third
 class TestThirdQuestion:
     @pytest.fixture
     def third_question_object(self):

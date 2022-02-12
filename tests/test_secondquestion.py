@@ -3,7 +3,6 @@ from src.secondquestion import SecondQuestion
 from src.utility import Utility
 
 
-@pytest.mark.second
 class TestSecondQuestion:
     @pytest.fixture
     def second_question_object(self):

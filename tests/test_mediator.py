@@ -2,7 +2,6 @@ import pytest
 from src.mediator import Mediator
 
 
-@pytest.mark.mediator
 class TestMediator:
     @pytest.fixture
     def mediator_object(self):

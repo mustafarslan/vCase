@@ -2,7 +2,6 @@ import pytest
 from src.firstquestion import FirstQuestion
 
 
-@pytest.mark.first
 @pytest.mark.usefixtures("not_valid_card_number", "valid_card_number")
 class TestFirstQuestion:
     @pytest.fixture
