@@ -1,7 +1,7 @@
-from firstquestion import FirstQuestion
-from secondquestion import SecondQuestion
-from thirdquestion import ThirdQuestion
-from utility import Utility
+from src.firstquestion import FirstQuestion
+from src.secondquestion import SecondQuestion
+from src.thirdquestion import ThirdQuestion
+from src.utility import Utility
 
 
 class Mediator:
